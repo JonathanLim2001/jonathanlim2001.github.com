@@ -1,1 +1,5 @@
-
+body{
+  background: url(https://i.ytimg.com/vi/oSZofK0yiwA/maxresdefault.jpg) no-repeat top;
+  background-size: cover;
+  background-attachment: fixed;
+}

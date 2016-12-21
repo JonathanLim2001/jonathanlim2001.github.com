@@ -71,9 +71,6 @@ table.table{
 box-sizing: border-box;}
 
 .links:hover{
-    background-color: #990000;
-}
-
-#suit:hover{
     background-color: #FF8C00;
 }
+

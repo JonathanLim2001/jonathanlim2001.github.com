@@ -69,7 +69,7 @@ nav{
   background-color: #FF8C00;
   color: black;
 }
-#home:hover{
+.home:hover{
    -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
   box-shadow: 0 0 1px transparent;
@@ -80,7 +80,7 @@ nav{
   transition-property: color, background-color;
 }
 
-#home:hover, #home:focus, #home:active{
+.home:hover, .home:focus, .home:active{
   background-color: #990000;
   color: black;
 }

@@ -76,4 +76,9 @@ box-sizing: border-box;
  
  #suit:hover{
      background-color: #FF8C00;
+      display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
  }

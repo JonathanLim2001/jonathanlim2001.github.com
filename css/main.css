@@ -88,6 +88,15 @@ box-sizing: border-box;
   background-color: #990000;
   color: black;
 }
+@-webkit-keyframes suit {
+  50% {
+    background-color: rgba(32, 152, 209, 0.75);
+  }
+}
+@keyframes suit {
+  50% {
+    background-color: rgba(32, 152, 209, 0.75);
+  }
  
  #suit:hover{
      background-color: #FF8C00;
@@ -104,8 +113,8 @@ box-sizing: border-box;
  }
 
 #suit:hover, #suit:focus, #suit:active{
--webkit-animation-name: hvr-back-pulse;
-  animation-name: hvr-back-pulse;
+-webkit-animation-name: suit;
+  animation-name: suit;
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
   -webkit-animation-delay: 0.5s;

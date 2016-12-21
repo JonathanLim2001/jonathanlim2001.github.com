@@ -88,15 +88,15 @@ box-sizing: border-box;
 }
 @-webkit-keyframes suit {
   50% {
-    background-color: rgba(32, 152, 209, 0.75);
+    background-color: rgba(255, 140, 0, 0.75);
   }
 }
 @keyframes suit {
   50% {
-    background-color: rgba(32, 152, 209, 0.75);
+    background-color: rgba(255, 140, 0, 0.75);
   }
  
- #suit:hover{
+ .suit:hover{
      background-color: #FF8C00;
       display: inline-block;
   -webkit-transform: perspective(1px) translateZ(0);
@@ -109,7 +109,7 @@ box-sizing: border-box;
   transition-property: color, background-color;
  }
 
-#suit:hover, #suit:focus, #suit:active{
+.suit:hover, .suit:focus, .suit:active{
 -webkit-animation-name: suit;
   animation-name: suit;
   -webkit-animation-duration: 1s;

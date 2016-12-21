@@ -68,9 +68,12 @@ table.table{
     border: solid 20px #990000;  
 }
 *{
-box-sizing: border-box;}
-
-.links:hover{
-    background-color: #FF8C00;
+box-sizing: border-box;
 }
-
+.links:hover{
+      background-color: #990000;
+  }
+ 
+ #suit:hover{
+     background-color: #FF8C00;
+ }

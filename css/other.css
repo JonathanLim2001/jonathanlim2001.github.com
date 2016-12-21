@@ -80,7 +80,7 @@ nav{
   transition-property: color, background-color;
 }
 
-.links:hover, .links:focus, .links:active{
+#home:hover, #home:focus, #home:active{
   background-color: #990000;
   color: black;
 }
